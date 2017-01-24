@@ -50,19 +50,19 @@ my $log = new Logger::Logger ( $debug_file, 0 ) or die "Can't create object";
 
 # database configuration
 my $db_cfg = {
-	'db_dmo_server'=>'HXDATADB1',
-	'db_rack_server'=>'hsdsppejv02',
-	'db_cmo_name'=>'oa_feed',
-	'db_rack_name'=>'oa_feed',
-	'db_user'=>'ejvprod',
-	'db_password'=>'jayne',
+	'db_dmo_server'=>'',
+	'db_rack_server'=>'',
+	'db_cmo_name'=>'',
+	'db_rack_name'=>'',
+	'db_user'=>'',
+	'db_password'=>'',
 };
 
 my $directories = {
-	'dir_faked'=>'/usr/pkgs/ops/lhua/OA/faked',
-	'dir_source'=>'/usr/pkgs/ops/lhua/OA/source',
-	'dir_temp'=>'/usr/pkgs/ops/lhua/OA/temp',
-	'dir_incoming'=>'/feeds/oasdi/todo/',	
+	'dir_faked'=>'',
+	'dir_source'=>'',
+	'dir_temp'=>'',
+	'dir_incoming'=>'',	
 };
 
 my $test_data = {
